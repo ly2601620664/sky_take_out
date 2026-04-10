@@ -1,0 +1,38 @@
+# ===== Maven =====
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ===== Eclipse =====
+.classpath
+.project
+.settings/
+
+# ===== Java =====
+*.class
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Test (只忽略编译结果，不删源码) =====
+**/target/test-classes/
+
+# ===== Config (重要：本地配置) =====
+application-dev.yml
+application-local.yml
+
+# ===== Secrets =====
+.env
+*.key
+*.pem

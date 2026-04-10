@@ -1,0 +1,25 @@
+package com.sky.service;
+
+import com.sky.entity.ShoppingCart;
+
+import java.util.List;
+
+public interface ShoppingCartService {
+
+    /**
+     * 添加购物车
+     * @param shoppingCart
+     */
+    void addShoppingCart(ShoppingCart shoppingCart);
+
+    /**
+     * 查看购物车
+     * @return
+     */
+    List<ShoppingCart> showShoppingCart();
+
+    /**
+     * 清空购物车
+     */
+    void cleanShoppingCart();
+}
